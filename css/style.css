@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sticker {
+    padding-top: 20px;
+    min-width: 150px;
+    min-height: 150px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    
+}
+
+.sticker:hover {
+    z-index: 2;
+}
+
+div .stickerBar {
+    position: absolute;
+    height: 20px;
+    top: 0;
+    left: 0;
+    background: black;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+div .close {
+    top: 2px;
+    height: 15px;
+    width: 15px;
+    background: red;
+    position: absolute;
+    border-radius: 50%;
+    cursor: pointer;
+    right: 5px;
+    border: none;
+}
+
+div .save {
+    top: 2px;
+    height: 15px;
+    width: 15px;
+    background: green;
+    position: absolute;
+    border-radius: 50%;
+    cursor: pointer;
+    left: 5px;
+    border: none;
+}
+
+div .stickerBar:hover {
+    cursor: move;
+    background: grey;
+}
+
+textarea {
+    min-width: 150px;
+    min-height: 150px;
+    box-sizing: border-box;
+    padding: 23px 5px 5px 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    background-color: rgb(102, 255, 153);
+    border-radius: 5px;
+}
+
+.add {
+    position: absolute;
+    font-size: 25px;
+    box-sizing: border-box;
+    background: green;
+    border: none;
+    bottom: 150px;
+    left: 100px;
+    width: 100px;
+    height: 100px;
+}
+.add:hover{
+    cursor: pointer;
+    background: greenyellow;
+}
